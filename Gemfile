@@ -33,6 +33,9 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 5.0.0'
+   gem 'rspec-core', '3.12.0'
+  gem 'rspec-expectations', '3.12.0'
+  gem 'rspec-mocks', '3.12.0'
 end
 
 group :test do
